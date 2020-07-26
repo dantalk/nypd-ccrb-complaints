@@ -5,7 +5,7 @@ Refers to 3 sources of CCRB data:
 
 - from the CCRB's ["Data Transparency Initiative"](https://www1.nyc.gov/site/ccrb/policy/data-transparency-initiative-complaints.page), which covers "all complaints and allegations closed" from 2006 to 2016 
     - [direct link to spreadsheet](http://www1.nyc.gov/assets/ccrb/downloads/excel/ccrb_datatransparencyinitiative_20170207.xlsx)
-- From the city's Socrata site, which has fewer fields than the Data Transparency Initiative, a few more years of data:
+- From the city's Socrata Open Data site, which has fewer fields than the Data Transparency Initiative, but also a few more years of data:
     - [Complaints received](https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Re/63nx-cpi9)
     - [Complaints closed](https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Cl/fx4z-5xg2)
     - [Allegations closed](https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Allegations-C/xyq2-jjkn)
