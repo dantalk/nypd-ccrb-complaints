@@ -1,0 +1,50 @@
+# Just an informal way of noting where you got data from...
+#  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
+#   know not just the source URL, but the context of the dataset when published
+
+collected/data-dictionaries/ccrb-opendata-complaints-received.xlsx:
+  url: https://data.cityofnewyork.us/api/views/63nx-cpi9/files/d63a30f5-13e6-4bc2-8c70-cff969cda10e?download=true&filename=OpenData_Data_Dictionary_ComplaintsReceived.xlsx
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Re/63nx-cpi9
+  autocollect: true
+
+collected/data-dictionaries/ccrb-opendata-complaints-closed.xlsx:
+  url: https://data.cityofnewyork.us/api/views/fx4z-5xg2/files/402e116a-41c4-4b8f-9a44-ceaba7377d77?download=true&filename=OpenData_Data_Dictionary_ComplaintsClosed.xlsx
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Cl/fx4z-5xg2
+  autocollect: true
+
+collected/data-dictionaries/ccrb-opendata-allegations-closed.xlsx:
+  url: https://data.cityofnewyork.us/api/views/xyq2-jjkn/files/0de09588-443f-41e8-a9ac-4ba619b3e3b9?download=true&filename=OpenData_Data_Dictionary_Allegations_Closed.xlsx
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Allegations-C/xyq2-jjkn
+  autocollect: true
+
+
+###############
+
+collected/ccrb-opendata-complaints-received.csv:
+  autocollect: true
+  url: https://data.cityofnewyork.us/api/views/63nx-cpi9/rows.csv?accessType=DOWNLOAD
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Re/63nx-cpi9
+  description: |
+    complaints
+
+collected/ccrb-opendata-complaints-closed.csv:
+  autocollect: true
+  url: https://data.cityofnewyork.us/api/views/fx4z-5xg2/rows.csv?accessType=DOWNLOAD
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Cl/fx4z-5xg2
+  description: |
+    complaints closed
+
+collected/ccrb-opendata-allegations-closed.csv:
+  autocollect: true
+  url: https://data.cityofnewyork.us/api/views/xyq2-jjkn/rows.csv?accessType=DOWNLOAD
+  landing_page: https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Allegations-C/xyq2-jjkn
+  description: |
+    allegations closed
+
+
+##############
+
+collected/ccrb-dti-complaints-closed-2017-02-07.xlsx:
+  autocollect: true
+  url: http://www1.nyc.gov/assets/ccrb/downloads/excel/ccrb_datatransparencyinitiative_20170207.xlsx
+  landing_page: https://www1.nyc.gov/site/ccrb/policy/data-transparency-initiative-complaints.page
